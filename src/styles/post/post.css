@@ -1,0 +1,54 @@
+.post-body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato-Thin';
+    border-bottom: 1px solid lightgray;
+    padding: 1rem;
+    gap: .55rem;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: .75rem;
+    /* border: 1px solid black; */
+}
+
+.post-user-pic {
+    /* border: 1px solid black; */
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 20%;
+}
+
+.post-username {
+    /* border: 1px solid black; */
+}
+
+.post-title {
+    font-style: italic;
+    border: 1px solid black;
+
+}
+
+.post-content {
+    font-family: 'Lato-Regular';
+    /* border: 1px solid black; */
+}
+
+.post-buttons {
+    display: flex;
+    align-self: center;
+    gap: .75rem;
+}
+
+.post-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .2rem;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+}
